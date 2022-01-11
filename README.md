@@ -19,7 +19,7 @@ NEXT_PUBLIC_ENVIRONMENT="development"
 SECRET=""
 JWT_SECRET=""
 
-# Next Auth: Database
+# Next Auth: Database (recommend Mongo Atlas)
 MONGODB_URI=""
 
 # Next Auth: Google Provider
