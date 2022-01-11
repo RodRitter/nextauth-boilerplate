@@ -13,7 +13,7 @@ These are the `.env` variables that you will need to include. If you don't need 
 ```
 # Defaults
 NEXTAUTH_URL="http://localhost:3000"
-NODE_ENV="development"
+NEXT_PUBLIC_ENVIRONMENT="development"
 
 # Next Auth: Secrets
 SECRET=""
@@ -33,3 +33,5 @@ EMAIL_SERVER_HOST=""
 EMAIL_SERVER_PORT=""
 EMAIL_FROM=""
 ```
+
+If you deploy to Vercel, don't forget to add these the server environment variables. If you need to access any variable in the client, you should prefix your variables with `NEXT_PUBLIC_<MY_VARIABLE>`.
